@@ -10,7 +10,7 @@ result = "2010"
 4. метод console.log выводит result в консоль
 */
 let result = 10 + 10 + "10";
-console.log(result)
+console.log(result);
 
 /*
 result = "101010"
@@ -23,7 +23,7 @@ result = "101010"
 4. метод console.log выводит result в консоль
 */
 result = 10 +"10" +10;
-console.log(result)
+console.log(result);
 
 /*
 result = 30
@@ -38,7 +38,7 @@ result = 30
 4. метод console.log выводит result в консоль
 */
 result = 10 + 10 + +"10";
-console.log(result)
+console.log(result);
 
 /*
 result = -Infinity
@@ -50,7 +50,7 @@ result = -Infinity
 4. метод console.log выводит result в консоль
 */
 result = 10 / -"";
-console.log(result)
+console.log(result);
 
 /*
 result = NaN
@@ -64,4 +64,4 @@ result = NaN
 4. метод console.log выводит result в консоль
 */
 result = 10 / +"2,5";
-console.log(result)
+console.log(result);
