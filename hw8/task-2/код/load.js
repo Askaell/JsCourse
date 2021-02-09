@@ -36,7 +36,7 @@ function insertPosts() {
         postsMarkup += getPostMarkup(i);
     }
     // 3.2 Перед scrollCheck вставьте записанную в postsMarkup разметку
-    scrollCheck.insertAdjacentHTML('beforeend', postsMarkup);
+    scrollCheck.insertAdjacentHTML('beforebegin', postsMarkup);
 }
 
 /**
